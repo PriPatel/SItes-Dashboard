@@ -1,0 +1,54 @@
+/* UNKNOWN*/
+.items .ui-selected {
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+ 
+
+
+
+
+/* STAGES */ 
+.items {
+    background: #EBEBEB; 
+    border-radius: 4px;
+    height:600px;
+    width:270px;
+    margin:10px;
+    float:left;
+}
+
+ 
+.items li {
+    margin: 10px;
+    padding: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    margin:auto;
+
+}
+
+
+
+
+
+
+/* SITES*/
+
+.site-card {
+    background-color: #ffffff;
+    width:88%;
+    border-bottom:1px solid #ccc;
+    border-radius: 4px;
+    margin:auto;
+    margin-top:12px;
+    list-style-type: none;
+}
+
+ 
+.highlight {
+    border: 2px solid #0078D4;
+    font-weight: bold;
+}
+
