@@ -1,0 +1,8 @@
+
+
+
+$(function()
+{
+	$('.site-cards').jScrollPane();
+});
+	

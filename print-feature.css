@@ -25,19 +25,67 @@
 }
 
 
-.stage{ 
+
+.stage{
+    width:280px;
+    height:600px;
+    margin:10px;
+    float:left;
+    border-radius:6px;
+
+}
+
+.site-cards{ 
 background: #EBEBEB; 
-border-radius: 4px;
-height:600px;
-width:270px;
-margin:10px;
-float:left;}
+width:100%;
+overflow-y: scroll;
+height:550px;
+float: left;
+}
+
+
+
+
+
+
+#style-2::-webkit-scrollbar-track
+{
+    
+    border-radius: 20px;
+    background-color: #eaeaea;
+    margin-top:7px;
+    width:1000px;
+    margin-bottom:5px;
+   margin-right:5px;
+   padding:1300px;
+}
+
+#style-2::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #eaeaea;
+     margin:auto;
+     border-radius: 20px;
+      margin-right:5px;
+
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    background-color: #c9c5c5;
+    margin:auto;
+     margin-right:5px;
+     
+}
+
+
+
 
 
 .site-card{
-    width:88%;
-    margin-left:11px;
-    margin-right:20px;
+    width:92%;
+    margin-left:10px;
     margin-top:12px;
     display:inline-block;
     background-color:#ffffff;
@@ -100,6 +148,32 @@ float:left;}
     font-size: 12px;
     color: #0078D4;
     letter-spacing: -0.13px;
+}
+
+
+.stage-header{
+    height:50px;
+    background-color:#21303D;
+    border-top-right-radius:6px;
+    border-top-left-radius:6px;
+    position:block;
+    border-bottom:solid 7px #fd9727;
+
+}
+
+.stage-name-textbox{
+    height:25px;
+    width:200px;
+    border:1px  solid;
+    position:absolute;
+    margin:8px 0px 10px 8px;
+
+}
+
+.stage-name{
+    font-family:Roboto-Regular;
+    font-size:18px;
+    color: white;
 }
 
 
