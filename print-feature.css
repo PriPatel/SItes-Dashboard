@@ -176,4 +176,45 @@ float: left;
     color: white;
 }
 
+.stage-options{
+
+
+border-radius: 3px;
+    float:right;
+    height:43px;
+    width:50px;
+}
+
+.stage-options-button{
+    height:21px;
+    width:31px;
+    margin:auto;
+    background: #2585CE;
+    margin-top:12px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:4px;
+}
+
+.stage-options-button-icon{
+    height:33px;
+    background-size:24px;
+    background-image: url("img/dots.svg");
+    background-repeat: no-repeat;
+
+}
+
+.stage-options-button-icon-container{
+    height:12px;
+    margin: auto;
+    padding-top:7px;
+    width:24px;
+
+}
+
+.stage-options-button:hover {
+    background-color: #48B1FF;
+    cursor:pointer;
+    cursor:hand;
+}
 
