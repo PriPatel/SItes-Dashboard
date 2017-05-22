@@ -18,13 +18,14 @@
 
 
  
+
+
+
+/* STAGES VIEW_______________________________________________________________________  */
+
 .stages{
      width:100%;
-    height:1000px;
-
 }
-
-
 
 .stage{
     width:280px;
@@ -32,22 +33,13 @@
     margin:10px;
     float:left;
     border-radius:6px;
-
-}
-
-.site-cards{ 
-background: #EBEBEB; 
-width:100%;
-overflow-y: scroll;
-height:550px;
-float: left;
 }
 
 
 
 
 
-
+/* STAGE SCROLLBARS_______________________________________________________________________ */
 #style-2::-webkit-scrollbar-track
 {
     
@@ -82,75 +74,7 @@ float: left;
 
 
 
-
-.site-card{
-    width:92%;
-    margin-left:10px;
-    margin-top:12px;
-    display:inline-block;
-    background-color:#ffffff;
-    border-bottom:1px solid #ccc;
-    border-radius: 4px;
-
-}
-
-.site-card:hover {
-    background-color: #F5F0F0;
-    cursor:pointer;
-    cursor:hand;
-}
-
-
-
-.site-name{
-    font-family:Roboto;
-    font-size: 14px;
-    color: #21303D;
-    letter-spacing: -0.13px;
-    margin:12px 9px 0px 10px;
-    line-height:16px;
-}
-
-.site-card-labels{
-    margin-left:8px;
-}
-
-
-.site-label{
-    font-family:Roboto;
-    font-weight:400;
-    background: #818A91;
-    border-radius: 18px;
-    color: white;
-    font-size:12px;
-    display:inline-block;
-    padding:2px 8px 2px 8px;
-    margin:8px 0px 2px 0px;
-    letter-spacing: -0.13px;
-}
-
-
-
-.site-card-source{
-    margin-bottom:7px;
-}
-
-.source-heading{
-    font-family: Roboto-BlackItalic;
-    font-size: 12px;
-    color: #0078D4;
-    letter-spacing: -0.13px;
-    padding:2px 1px 2px 8px;
-}
-
-.source-info{
-    font-family: Roboto-Regular;
-    font-size: 12px;
-    color: #0078D4;
-    letter-spacing: -0.13px;
-}
-
-
+/* STAGE HEADER_______________________________________________________________________  */
 .stage-header{
     height:50px;
     background-color:#21303D;
@@ -236,4 +160,80 @@ border-radius: 3px;
     cursor:pointer;
     cursor:hand;
     border:1px solid blue;
+
+
+
+
+/* SITE CARDS_______________________________________________________________________ */
+.site-cards{ 
+background: #EBEBEB; 
+width:100%;
+overflow-y: scroll;
+height:550px;
+float: left;
+}
+
+.site-card{
+    width:92%;
+    margin-left:10px;
+    margin-top:12px;
+    display:inline-block;
+    background-color:#ffffff;
+    border-bottom:1px solid #ccc;
+    border-radius: 4px;
+}
+
+.site-card:hover {
+    background-color: #F5F0F0;
+    cursor:pointer;
+    cursor:hand;
+}
+
+.site-name{
+    font-family:Roboto;
+    font-size: 14px;
+    color: #21303D;
+    letter-spacing: -0.13px;
+    margin:12px 9px 0px 10px;
+    line-height:16px;
+}
+
+.site-card-labels{
+    margin-left:8px;
+}
+
+.site-label{
+    font-family:Roboto;
+    font-weight:400;
+    background: #818A91;
+    border-radius: 18px;
+    color: white;
+    font-size:12px;
+    display:inline-block;
+    padding:2px 8px 2px 8px;
+    margin:8px 0px 2px 0px;
+    letter-spacing: -0.13px;
+}
+
+.site-card-source{
+    margin-bottom:7px;
+}
+
+.source-heading{
+    font-family: Roboto-BlackItalic;
+    font-size: 12px;
+    color: #0078D4;
+    letter-spacing: -0.13px;
+    padding:2px 1px 2px 8px;
+}
+
+.source-info{
+    font-family: Roboto-Regular;
+    font-size: 12px;
+    color: #0078D4;
+    letter-spacing: -0.13px;
+}
+
+
+
 
