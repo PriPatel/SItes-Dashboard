@@ -160,11 +160,13 @@ border-radius: 3px;
     cursor:pointer;
     cursor:hand;
     border:1px solid blue;
-
+}
 
 
 
 /* SITE CARDS_______________________________________________________________________ */
+
+
 .site-cards{ 
 background: #EBEBEB; 
 width:100%;
@@ -237,3 +239,13 @@ float: left;
 
 
 
+
+
+
+
+
+
+
+
+/* SITE CARD INFO_______________________________________________________________________ */
+site-info-card-container

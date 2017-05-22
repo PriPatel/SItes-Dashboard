@@ -1,5 +1,5 @@
 /* UNKNOWN*/
-.items .ui-selected {
+.stage .ui-selected {
     background: red;
     color: white;
     font-weight: bold;
@@ -10,7 +10,7 @@
 
 
 /* STAGES */ 
-.items {
+.stage {
     background: #EBEBEB; 
     border-radius: 4px;
     height:600px;
@@ -21,7 +21,7 @@
 }
 
  
-.items li {
+.stage li {
     margin: 10px;
     padding: 2px;
     cursor: pointer;
@@ -116,4 +116,43 @@
     letter-spacing: -0.13px;
 }
 
+
+
+/* STAGE SLOT*/
+.stageslot{
+    width:300px;
+    height:1000px;
+    background-color:blue;
+    float:left;
+    margin:30px;
+}
+
+.drag-placeholder{
+    border-radius: 4px;
+    height:600px;
+    width:270px;
+    margin:10px;
+    float:left;
+    padding:13px;
+    background-color:gray;
+
+}
+
+
+
+
+
+
+
+
+.add-new-stage-button{
+    height:50px;
+    background-color:#21303D;
+    border-top-right-radius:6px;
+    border-top-left-radius:6px;
+    position:block;
+    width:50px;
+    color:White;
+    font-family:roboto;
+}
 
