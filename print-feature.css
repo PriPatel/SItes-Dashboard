@@ -193,7 +193,7 @@ border-radius: 3px;
     margin-top:12px;
     margin-left:auto;
     margin-right:auto;
-    border-radius:4px;
+    border-radius:6px;
 }
 
 .stage-options-button-icon{
@@ -217,4 +217,23 @@ border-radius: 3px;
     cursor:pointer;
     cursor:hand;
 }
+
+.input{
+    background-color:#21303D;
+    border:none;
+}
+
+.input:active {
+    background-color: #48B1FF;
+    cursor:pointer;
+    cursor:hand;
+    cursor:pointer;
+    cursor:hand;
+}
+
+.input[type=text]:focus {
+    background-color: #48B1FF;
+    cursor:pointer;
+    cursor:hand;
+    border:1px solid blue;
 
