@@ -24,8 +24,8 @@
 
 
 .site-card-name-container{
-	padding-top:10px;
-	padding-left:20px;
+	padding-top:11px;
+	padding-left:15px;
 	
 	display:inline-block;
 	height:45px;
@@ -60,3 +60,36 @@
     cursor:hand;
    
 }
+
+
+
+
+.site-card-close-button{
+	border-radius: 50%;
+	width: 28px;
+	height: 28px; 
+	float:right;
+	margin-right:10px;
+	background-color:#21303D;
+	margin-top:9px;
+	display:inline-block;
+}
+
+.site-card-close-button:hover{
+	background-color:#0079C8;
+}
+
+.close-icon{
+	height:18px;
+    background-size:18px;
+    background-image: url("img/cross-button.svg");
+    background-repeat: no-repeat;
+    margin-left:5.5px;
+    margin-top:5.5px;
+ 
+}
+
+
+
+
+
