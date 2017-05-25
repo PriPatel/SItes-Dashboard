@@ -68,7 +68,8 @@
     background-color: #c9c5c5;
     margin:auto;
      margin-right:5px;
-     
+     border: 3px solid transparent;
+    background-clip: content-box;
 }
 
 
@@ -107,6 +108,7 @@ border-radius: 3px;
     float:right;
     height:43px;
     width:50px;
+    margin-right:-9px;
 }
 
 .stage-options-button{
@@ -118,6 +120,7 @@ border-radius: 3px;
     margin-left:auto;
     margin-right:auto;
     border-radius:6px;
+    border:none;
 }
 
 .stage-options-button-icon{
@@ -162,6 +165,19 @@ border-radius: 3px;
     border:1px solid blue;
 }
 
+.new-stage{
+    height:45px;
+    background-color:#21303D;
+    border-radius:6px;
+    position:block;
+    border-bottom:none;
+
+}
+
+
+.new-stage:hover{
+    background-color:#48B1FF;
+}
 
 
 /* SITE CARDS_______________________________________________________________________ */
@@ -249,3 +265,74 @@ float: left;
 
 /* SITE CARD INFO_______________________________________________________________________ */
 site-info-card-container
+
+
+
+
+
+/* DROPDOWNS_______________________________________________________________________ */
+
+.dropdown{
+    font-family:Roboto-REgular;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
+
+.btn-default:hover{
+    background-color:red;
+}
+
+.dots{
+    font-family:Roboto;
+    font-size:50px;
+    margin-bottom:10px;
+
+}
+

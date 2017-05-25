@@ -1,0 +1,62 @@
+/* _________________________________________________TOP HEADERS & ICONS __________________________________________________*/
+
+.navigation-bar{
+    height:50px;
+    width:100%;
+    background-color:#24303C;
+}
+
+
+.sites-area-header{
+    width:100%;
+    background-color: grey;
+    margin:auto;
+    height:70px;
+}
+
+.sites-area-heading{
+	float:left;
+	height:30px;
+	margin-left:25px;
+	position: relative;
+  	top: 50%;
+ 	transform: translateY(-50%);
+
+}
+
+.sites-area-icon{
+	height:23px;
+	width:30px;
+	background-size: 27px;
+	background-image:url("img/sites-icon.svg");
+	background-repeat: no-repeat;
+	display:inline-block;
+	position: relative;
+  	top: 50%;
+ 	transform: translateY(-50%);
+	
+}
+
+.sites-area-title{
+	font-family:Roboto-Regular;
+	font-size:1.6em;
+}
+
+
+
+
+
+
+/* _________________________________________________STAGE AREA __________________________________________________*/
+
+.sites-area-content{
+	margin:20px;
+	height:90%;
+	width:90%;
+	background-color:red;
+	display: block;
+}
+
+
+
+

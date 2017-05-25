@@ -22,7 +22,6 @@
 }
 
 
-
 .site-card-name-container{
 	padding-top:11px;
 	padding-left:15px;
@@ -90,6 +89,68 @@
 }
 
 
+.site-card-contents{
+	background-color:blue;
+	width:93%;
+	margin:25px;
+	height:100px;
+}
 
 
+.card-left{
+	float:left;
+	width:50%;
+	height:100px;
+	background-color: red;
+	margin-right:auto;
+	margin-left:auto;
+}
 
+.card-right{
+	float:right;
+	width:50%;
+	height:100px;
+	background-color:pink;
+	margin-right:auto;
+	margin-left:auto;
+}
+
+.card-content{
+	width:90%;
+	background-color:purple;
+	
+	margin:auto;
+	margin-top:10px;
+	margin-bottom:20px;
+
+}
+
+.card-content-heading{
+font-family: Roboto-Bold;
+font-size: 18px;
+color: #027BBC;
+letter-spacing: -0.17px;
+}
+
+
+.label{
+    font-family:Roboto;
+    font-weight:400;
+    background: #818A91;
+    border-radius: 18px;
+    color: white;
+    font-size:12px;
+    display:inline-block;
+    padding:2px 8px 2px 8px;
+    margin:8px 0px 2px 0px;
+    letter-spacing: -0.13px;
+}
+
+.screenshot{
+	    height:33px;
+    background-size:80px;
+    background-image: url("img/screenshot.png");
+    background-repeat: no-repeat;
+
+
+}
