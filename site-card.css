@@ -1,6 +1,8 @@
+
+
 .site-card-container{
-	height:600px;
-	width:730px;
+	height:450px;
+	width:628px;
 	background-color:#f1f1f1;
 	margin-left:auto;
 	margin-right:auto;
@@ -33,7 +35,7 @@
 
 .input{
 	height:26px;
-	width:500px;
+	width:180px;
 	border:none;
 	
  
@@ -90,7 +92,6 @@
 
 
 .site-card-contents{
-	background-color:blue;
 	width:93%;
 	margin:25px;
 	height:100px;
@@ -101,7 +102,6 @@
 	float:left;
 	width:50%;
 	height:100px;
-	background-color: red;
 	margin-right:auto;
 	margin-left:auto;
 }
@@ -110,14 +110,12 @@
 	float:right;
 	width:50%;
 	height:100px;
-	background-color:pink;
 	margin-right:auto;
 	margin-left:auto;
 }
 
 .card-content{
 	width:90%;
-	background-color:purple;
 	
 	margin:auto;
 	margin-top:10px;
@@ -147,10 +145,19 @@ letter-spacing: -0.17px;
 }
 
 .screenshot{
-	    height:33px;
-    background-size:80px;
+	    height:250px;
+    background-size:250px;
     background-image: url("img/screenshot.png");
     background-repeat: no-repeat;
 
+}
 
+
+.action{
+	width:99px;
+	margin-bottom:5px;
+}	
+
+.go-to-button{
+	margin-bottom:8px;
 }

@@ -82,9 +82,22 @@
     border-top-right-radius:6px;
     border-top-left-radius:6px;
     position:block;
-    border-bottom:solid 7px #fd9727;
+    border-bottom:solid 7px #ffc800;
 
 }
+
+.stage-header2{
+        border-bottom:solid 7px #ff9800;
+
+}
+
+
+.stage-header3{
+        border-bottom:solid 7px #00f07b;
+
+}
+
+
 
 .stage-name-textbox{
     height:25px;
@@ -331,8 +344,9 @@ site-info-card-container
 
 .dots{
     font-family:Roboto;
-    font-size:50px;
+    font-size:15px;
     margin-bottom:10px;
-
+    color:white;
 }
+
 
