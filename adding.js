@@ -1,3 +1,8 @@
- $("#btnAddAddress").click(function () {
-      $("#container").append('<div class="address"><div class="input-reg rb-item input-group"><span class="input-group-addon">Address </span>');
+$(document).ready(function() {
+       
+    $("button[name='addDom']").click(function() {
+        var domElement = $('<div class="module_holder"><div class="module_item"><img src="images/i-5.png" alt="Sweep Stakes" /></div></div>');
+        $(this).after(domElement);
     });
+    
+});

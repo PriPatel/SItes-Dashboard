@@ -1,5 +1,7 @@
 .body{
     font-family:Roboto;
+    overflow-x:scroll;
+
 }
 
 
@@ -25,6 +27,12 @@
 
 .stages{
      width:100%;
+    overflow-x: scroll;
+        overflow-y: hidden;
+      
+    white-space:nowrap;
+
+
 }
 
 .stage{
@@ -33,6 +41,7 @@
     margin:10px;
     float:left;
     border-radius:6px;
+    display: inline-block;
 }
 
 
